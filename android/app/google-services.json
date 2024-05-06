@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692443067215",
+    "project_id": "e-cart-d8427",
+    "storage_bucket": "e-cart-d8427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692443067215:android:4aa62c2167fed3bdb8cb3a",
+        "android_client_info": {
+          "package_name": "com.example.cart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP2WNUehaPIQbW5j-yyoifWKn46scjgkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692443067215:android:ce2644ddb7d81550b8cb3a",
+        "android_client_info": {
+          "package_name": "com.roshdi.store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP2WNUehaPIQbW5j-yyoifWKn46scjgkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
