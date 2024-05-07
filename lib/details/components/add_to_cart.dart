@@ -1,13 +1,8 @@
-// import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import '../../cart_provider.dart';
+import '../../../models/cart_provider.dart';
 import 'package:provider/provider.dart';
-// import '../../models/Product.dart';
-import '../../item.dart';
-
-import '../../../constants.dart';
+import '../../../models/item.dart';
+import '../../models/constants.dart';
 
 class AddToCart extends StatelessWidget {
   const AddToCart({super.key, required this.product});

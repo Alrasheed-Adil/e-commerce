@@ -1,13 +1,16 @@
+// Import the firebase_core and cloud_firestore plugin
+
 import 'package:MyStore/home/home_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 User? user = FirebaseAuth.instance.currentUser;
+
+// Create a CollectionReference called users that references the firestore collection
 CollectionReference Order = FirebaseFirestore.instance.collection('orders');
 
 List<Map> orders = [];
-
 Future<void> createOrder(context, items) {
   items.forEach((element) {
     orders.add({
@@ -23,6 +26,15 @@ Future<void> createOrder(context, items) {
       builder: (context) => HomeScreen(),
     ),
   );
+
+  // Call the user's CollectionReference to  add a new user
+  // ordrs.add(new order(
+  //   data: orders,
+  //   date: DateTime.now().toString(),
+  //   id: user!.uid.toString(), // Stokes and Sons
+  //   status: 'Processing',
+  // ));
+
   double total = orders.fold(0,
       (previousValue, item) => previousValue + item['price'] * item['count']);
 

@@ -1,19 +1,10 @@
-import 'package:MyStore/introductionScreen.dart';
-import 'package:MyStore/signUp.dart';
 import 'package:flutter/material.dart';
-import './cart_provider.dart';
-// import './login.dart';
+import './models/cart_provider.dart';
 import './signIn.dart';
-// import './profile.dart';
-// import './cart.dart';
-// import './readData.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
-import './home/home_screen.dart';
-// import './homepage.dart';
-import './card.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 bool userIsSignIn = false;
@@ -22,7 +13,6 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  //await FirebaseAuth.instance.signOut();
   FirebaseAuth.instance.idTokenChanges().listen((User? user) {
     if (user == null) {
       print('User is currently signed out!');
@@ -67,4 +57,3 @@ class MainApp extends StatelessWidget {
         ));
   }
 }
-// userIsSignIn ? UserProfilePage() :

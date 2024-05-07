@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
-// import '../../models/Product.dart';
-import '../../item.dart';
-
-import '../../../constants.dart';
+import '../../../models/item.dart';
+import '../../models/constants.dart';
 
 class ItemCard extends StatelessWidget {
-  Color color;
+  final Color color;
 
-  ItemCard(
+  const ItemCard(
       {super.key,
       required this.product,
       required this.press,

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-// import '../../models/Product.dart';
-import '../../item.dart';
-
-import '../../../constants.dart';
+import '../../../models/item.dart';
+import '../../models/constants.dart';
 
 class Description extends StatelessWidget {
   const Description({super.key, required this.product});

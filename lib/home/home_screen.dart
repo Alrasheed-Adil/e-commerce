@@ -1,13 +1,9 @@
-import 'package:MyStore/Orders.dart';
 import 'package:MyStore/cartScreen.dart';
-import 'package:MyStore/orderList.dart';
 import 'package:MyStore/readData.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import '../constants.dart';
-
-// import '../../models/Product.dart';
-import '../item.dart';
+import '../models/constants.dart';
+import '../models/item.dart';
 import '../details/details_screen.dart';
 import 'components/categorries.dart';
 import 'components/item_card.dart';
