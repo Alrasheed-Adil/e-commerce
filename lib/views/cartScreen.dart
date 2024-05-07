@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import '../models/cart_provider.dart';
 import 'package:provider/provider.dart';
 import '../models/item.dart';
-import '../controlers/createOrder.dart';
+import '../models/createOrder.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
 // import 'package:shopping_cart/utils/CustomTextStyle.dart';
 // import 'package:shopping_cart/utils/CustomUtils.dart';
