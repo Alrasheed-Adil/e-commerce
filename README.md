@@ -11,6 +11,7 @@ Add products to your cart and proceed to a secure checkout process.
 Explore personalized recommendations based on your browsing and purchase history.
 Engage with customer reviews and ratings to make informed purchasing decisions.
 Manage your account settings, including addresses, payment methods, and preferences.
+
 🔧 Technologies Used:
 
 Flutter for cross-platform mobile app development.
